@@ -105,7 +105,7 @@ def set_ogretmen(update, context):
     game.set_ogretmen(update.message.from_user.id)
 
     show_word_btn = InlineKeyboardButton("🔍🔢Rakama Bak", callback_data='show_word')
-    
+    change_word_btn = InlineKeyboardButton("🔄 Adı dəyiş", callback_data='change_word') 
 
     keyboard = [[show_word_btn]]
     reply_markup = InlineKeyboardMarkup(keyboard)
