@@ -10,7 +10,12 @@
     "3"
   ],
   "repository": "https://github.com/Goqerti/sozbotragnarok",
-  
+
+      "BOT_TOKEN": {
+      "description": "Bir bot belirteci @botfather ile alınız",
+      "required": true
+    },
+    
   "addons": [
     {
       "plan": "heroku-postgresql",
